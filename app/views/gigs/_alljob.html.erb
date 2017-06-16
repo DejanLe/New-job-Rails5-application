@@ -1,0 +1,23 @@
+ <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Job name</th>
+        <th>Job Description</th>
+        <th>Job Budget</th>
+        <th>Job Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <% @gigs.each do |gig| %>
+        <td><h5><%= link_to gig.name , gig  %></h5> </td>
+        <td><h5><%= gig.description %></h5></td>
+        <td><h5>$<%= gig.budget %></h5></td>
+        <td><h5><h5><%= gig.location %></h5> </td>
+
+  		
+      </tr>
+      <% end %>
+    </tbody>
+  </table>		
+  <%= paginate @gigs %>

@@ -1,0 +1,37 @@
+<div class="container">
+  <%= form_for @gig do |f| %>
+  <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="form-group">
+          <%= f.label :name %>
+          <%= f.text_field :name, class: "form-control input-lg" %>
+          <small>Title of your job (example: Web developer)</small>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="form-group">
+          <%= f.label :description %>
+          <%= f.text_area :description, class: "form-control input-lg" %>
+           <small>Description of your job (example: need Web developer for one month)</small>
+        </div>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="form-group">
+          <%= f.label :budget %>
+          <%= f.text_field :budget, class: "form-control input-lg" %>
+           <small>Budget for your job (example: $ 1000)</small>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="form-group">
+         <%= f.label :location %>
+          <%= f.text_field :location, class: "form-control input-lg" %>
+           <small>Job location (example: Los Angeles)</small>
+        </div>
+      </div>
+  </div>
+  <%= f.submit class: "btn btn-primary input-lg" %>
+  <% end %>
+</div>

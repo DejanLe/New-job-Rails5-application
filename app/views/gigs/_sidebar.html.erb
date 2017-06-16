@@ -1,0 +1,17 @@
+<div class="panel">
+	<div class="panel-header">
+		<div class="panel-body">
+		<h3 class="text-center">Last Job</h3>
+		 	<ol>
+				<% @gigs.last(10).each do |gig| %>
+			       <li> <h5><%= link_to gig.name , gig  %></h5>  </li>
+			         <h5><%= gig.description %></h5> 
+			         <h5>budget: $<%= gig.budget %></h5> 
+			         <h5><%= gig.location %></h5> 
+			     
+			      <% end %>
+
+			</ol> 
+		</div>
+	</div>
+</div>

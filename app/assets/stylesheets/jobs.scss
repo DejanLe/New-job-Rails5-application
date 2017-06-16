@@ -1,0 +1,115 @@
+body{
+	background-color: #f6f6f7 !important;
+    color: #243238;
+    font-family: 'Open Sans', sans-serif !important; 
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0; 
+    width: 100%;
+}
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.jumbotron{
+	background: url(jobs.jpeg);
+	background-position: 20% 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
+	overflow: hidden;
+	h1{
+		color: orange !important;
+		font-weight: 900;
+		padding-top:  50px;
+	}
+}
+ 
+.overlay{
+	background-color:rgba(19, 56, 74, 0.68);
+	height: 100vh;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-weight: 900;
+}
+ 
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
+    font-weight: 900;
+}
+ 
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15)!important;
+    
+}
+.panel-header{
+    padding:15px;
+}
+ 
+.alljob a {
+    color: #8ac03c;
+    text-decoration: none;
+    font-weight: 900;
+}
+.blockquote {
+    margin: 0;
+    background: #F1F2F3;
+    display: block;
+    padding: 30px 50px 40px 36px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 75%;
+    font-size: 14px;
+}
+.img-circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.box_aside {
+    float: left;
+}
+.box_cnt__no-flow {
+    overflow: hidden;
+}
+.material-design-rate:before {
+    content: "\e112";
+}
+.blockquote .act {
+    color: #AAC117;
+}
+ 
+.blockquote .material-design-rate {
+    
+    color: #A4A8AE;
+    line-height: 40px;
+}
+ 
+.blockquote span {
+    margin-left: -9px;
+}
+.client_say{
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+}
+.client_say .fa{
+    color:orange;
+}
